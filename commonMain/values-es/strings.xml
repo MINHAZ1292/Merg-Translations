@@ -79,7 +79,7 @@
     <string name="custom_background_opacity">Opacidad del Fondo</string>
     <string name="show_performance_metrics">Mostrar Estadísticas de Rendimiento</string>
     <string name="skin_outlines">Contorno de Skin</string>
-    <string name="multimerg_blob2_opposite_color">Color opuesto en Blob 2 (Multimerg)</string>
+    <string name="multimerg_blob2_opposite_color">El 2do Blob en Multimerg tiene el color opuesto</string>
     <string name="delayed_auto_fire">Autosplit/shoot Retrasado</string>
     <string name="direction_arrow">Flecha de Dirección</string>
     <string name="border_above_entities">Borde por Encima de las Entidades</string>
@@ -92,8 +92,8 @@
     <string name="name_position_center">Centrado</string>
     <string name="name_position_below">Abajo</string>
     <string name="name_scale">Escala del Nombre</string>
-    <string name="auto_spectate_killer">Espectar a Quien te Comió</string>
-    <string name="cycle_progressbar">Alternar Texto de Barra de EXP</string>
+    <string name="auto_spectate_killer">Espectar Automát. a Quien te Comió</string>
+    <string name="cycle_progressbar">Alt. Automát. Texto de la Barra EXP</string>
     <string name="verbose_in_game_ui">Indicadores de Juego</string>
     <string name="jitter_buffer">Estabilizador de Red</string>
     <string name="extrapolation">Extrapolación</string>
@@ -223,7 +223,7 @@
     <string name="boosters">Mejoras</string>
     <string name="booster_permanent_upgrades">Mejoras Permanentes</string>
     <string name="booster_owned">nivel: %1$s</string>
-    <!-- Value shown for a booster the player has not bought any level of. -->  
+    <!-- Value shown for a booster the player has not bought any level of. -->
     <string name="none">N/A</string>
     <string name="booster_ad_xp_title">Multip. EXP por Anuncio</string>
     <string name="booster_ad_xp_desc">Mira un anuncio para obtener un potenciador de EXP temporal!</string>
@@ -532,12 +532,12 @@
     <string name="clan_create">Crear Clan</string>
     <string name="clan_name">Nombre de Clan</string>
     <string name="clan_name_hint">Escribe el Nombre de Clan (max. 14 caracteres)</string>
-    <string name="clan_tag">Tag de Clan</string>
+    <string name="clan_tag">Siglas del Clan</string>
     <string name="clan_tag_hint">Siglas (1-4 letras)</string>
     <string name="clan_list">Clanes Públicos</string>
     <string name="clan_no_clans">No se Encontraron Clanes</string>
     <string name="no_clan">sin clan</string>
-    <string name="clan_request_clans">Clanes por Solicitud</string>
+    <string name="clan_request_clans">Solo Clanes por Solicitud</string>
     <string name="clan_my_invites">Mis Invitaciones de Clan</string>
     <string name="clan_invite_declined">Invitación Rechazada.</string>
     <string name="clan_joined">¡Te uniste al Clan!</string>
@@ -591,12 +591,12 @@
     <string name="clan_invite_list_full">La Lista de Invitaciones está Llena (100/100).</string>
     <string name="clan_player_invite_list_full">Ups, este(a) Jugador(a) ya tiene el número máximo de Invitaciones de Clan pendientes.</string>
     <string name="clan_request_list_full">La Lista de Solicitudes de Ingreso está Llena (100/100).</string>
-    <string name="clan_donate_voidstones">Donar Voidstones</string>
+    <string name="clan_donate_voidstones">Regalar Voidstones</string>
     <string name="clan_donate_hint">100 – 100,000</string>
     <string name="clan_donate_sent">¡Donación Enviada!</string>
     <string name="clan_not_a_member">Ups, ya no eres Miembro de este Clan.</string>
     <string name="clan_already_requested">Ups, ya tienes una Solicitud de Ingreso pendiente con otro Clan.</string>
-    <string name="clan_copy_tag">Copiar Tag</string>
+    <string name="clan_copy_tag">Copiar Siglas</string>
     <string name="clan_creator">Creador(a)</string>
     <string name="clan_history">Historial</string>
     <string name="clan_history_no_entries">Sin Historial</string>
@@ -779,7 +779,7 @@
     <string name="timer_time">Tiempo</string>
     <string name="timer_overtime">Tiempo Extra</string>
     <string name="timer_overtime_count">Tiempo Extra %d</string>
-    <string name="timer_grace">Tiempo de Gracia</string>
+    <string name="timer_grace">Extra</string>
     <string name="timer_tiebreaker">Desempate</string>
     <string name="timer_winner">Ganador</string>
 
@@ -936,7 +936,7 @@
     <string name="block_player">Bloquear Jugador(a)</string>
     <string name="unblock_player">Desbloquear Jugador(a)</string>
     <string name="block_confirm_title">Bloquear Jugador(a)</string>
-    <string name="block_confirm_message">¿Seguro(a) que quieres bloquear a %s? No podrán enviarse Correos ni Solicitudes de Amistad, y ambos serán eliminados de su Lista de Amigos.</string>
+    <string name="block_confirm_message">¿Seguro(a) que quieres bloquear a %s? No podrán enviarse correos ni solicitudes de amistad, y ambos serán eliminados de su lista de amigos.</string>
     <string name="player_unblocked">Jugador(a) Desbloqueado(a)</string>
     <string name="player_blocked">Jugador(a) Bloqueado(a)</string>
     <string name="you_blocked_user">Has Bloqueado a este(a) Jugador(a)</string>
@@ -970,7 +970,7 @@
     <!-- Custom Images -->
     <string name="custom_images">Skin Personalizada</string>
     <string name="profile_avatar">Avatar de Perfil</string>
-    <string name="custom_image_rules">CONTENIDO EXPLÍCITAMENTE PROHIBIDO:\n\n- NSFW / Contenido sexual\n- Violencia / Gore\n- Armas\n- Referecias de odio\n- Discursos de odio/discriminación\n- Drogas\n- Contenido impactante/repugnante\n- Personajes/logotipos con copyright\n- Referencias al alcohol/tabaco\n- Imágenes terroríficas/escalofriantes</string>
+    <string name="custom_image_rules">CONTENIDO EXPLÍCITAMENTE PROHIBIDO:\n\n- NSFW / Contenido sexual\n- Violencia / Gore\n- Armas\n- Símbolos de odio\n- Discursos de odio/discriminación\n- Drogas\n- Contenido impactante/repugnante\n- Personajes/logotipos con copyright\n- Referencias al alcohol/tabaco\n- Imágenes terroríficas/escalofriantes</string>
     <string name="custom_image_upload">Subir</string>
     <string name="custom_image_replace">Reemplazar</string>
     <string name="custom_image_deselect">Deseleccionar</string>
@@ -1169,9 +1169,9 @@
     <string name="accept">Aceptar</string>
     <string name="decline">Rechazar</string>
     <string name="banned">Baneado(a)</string>
-    <string name="muted">Silenciado(a)</string>
+    <string name="muted">Muteado(a)</string>
     <string name="banned_until">Baneado(a) hasta %s</string>
-    <string name="muted_until">Silenciado(a) hasta %s</string>
+    <string name="muted_until">Muteado(a) hasta %s</string>
     <string name="server_shutting_down">El Servidor se está Cerrando…</string>
     <string name="server_rebooting">El Servidor se está Reiniciando. Por favor, intenta de nuevo en breve.</string>
     <string name="server_maintenance">Ups, el Servidor está en Mantenimiento. Por favor, intenta de nuevo más tarde.</string>
@@ -1203,7 +1203,7 @@
     <string name="copy">Copiar</string>
     <string name="open_link">Abrir</string>
     <string name="whatsapp_note">Solo chat (no llamadas o SMS)</string>
-    <string name="recommended">Recomendado</string>
+    <string name="recommended">recomendado</string>
     <string name="support_response_time">Respuesta en un plazo de</string>
     <string name="support_mail">Correo</string>
     <string name="support_discord_channel">ticket de soporte</string>
@@ -1250,7 +1250,7 @@
     <string name="ach_desc_highest_size">Alcanza un tamaño total de %1$s.</string>
     <string name="ach_title_food_nibbler">Picoteador</string>
     <string name="ach_title_food_taster">Catador</string>
-    <string name="ach_title_food_eater">Comilón</string>
+    <string name="ach_title_food_eater">Comelón</string>
     <string name="ach_title_food_gobbler">Tragón</string>
     <string name="ach_title_food_devourer">Devorador</string>
     <string name="ach_desc_food_eaten">Come %1$s de comida.</string>
