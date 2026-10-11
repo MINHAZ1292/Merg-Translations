@@ -616,7 +616,7 @@
     <string name="clan_discover">Explorar Clanes</string>
     <string name="clan_promote_to_owner">Ascender a Líder</string>
     <string name="clan_transfer_ownership_title">Transferir Propiedad</string>
-    <string name="clan_transfer_ownership_message">¿Seguro(a) que quieres Ascender a "%1$s" (ID: %2$d) como Líder. Serás Degradado a Colíder. Esta acción es irreversible.\n\nIntroduce la ID del jugador para confirmar:</string>
+    <string name="clan_transfer_ownership_message">¿Seguro(a) que quieres Ascender a "%1$s" (ID: %2$d) como Líder. Serás Degradado a Colíder. Esta acción es irreversible.\n\nEscribe el ID del jugador para confirmar:</string>
     <string name="clan_transfer_ownership_id_mismatch">La ID no coincide</string>
     <string name="clan_customize_name_color">Color de Nombre del Clan</string>
     <string name="clan_customize_tag_color">Color de Siglas del Clan</string>
