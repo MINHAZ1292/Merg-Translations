@@ -63,11 +63,15 @@
     <string name="control_touch">Dokunmatik</string>
     <string name="control_drag">Drag</string>
     <string name="ignore_multitouch_movement">Ignore multitouch for movement</string>
+    <string name="snap_direction_on_stop">Snap direction to 90° on stop</string>
     <string name="control_mouse">Fare</string>
     <string name="control_keyboard">Klavye</string>
     <string name="button_layout">Buton Düzeni</string>
     <string name="customize">Özelleştir</string>
     <string name="opacity">Opaklık</string>
+    <string name="top_button_position">Top Button Position</string>
+    <string name="top_button_position_left">Left</string>
+    <string name="top_button_position_right">Right</string>
     <string name="leaderboard_size">Liderlik Tablosu Boyutu</string>
     <string name="sound_effects">Ses Efektleri</string>
     <string name="sound_volume">Ses Seviyesi</string>
@@ -81,17 +85,25 @@
     <string name="skin_outlines">Görünüm Dış Çizgileri</string>
     <string name="multimerg_blob2_opposite_color">Multimerg Blob 2 has opposite color</string>
     <string name="delayed_auto_fire">Gecikmeli Otomatik Bölünme/Fırlatma</string>
+    <string name="zoom_lens_size">Zoom Lens Size</string>
     <string name="direction_arrow">Yön Oku</string>
     <string name="border_above_entities">Sınır Çizgisini Nesnelerin Üzerinde Göster</string>
     <string name="map_border_visible">Harita Sınırını Göster</string>
     <string name="star_background_enabled">Yıldızlı Arka Planı Etkinleştir</string>
     <string name="star_color_white">Beyaz</string>
     <string name="star_color_black">Siyah</string>
-    <string name="name_position">İsim Pozisyonu</string>
+    <string name="text_position">Text Position</string>
     <string name="name_position_above">Üstünde</string>
     <string name="name_position_center">Ortala</string>
     <string name="name_position_below">Altında</string>
-    <string name="name_scale">İsim Ölçeği</string>
+    <string name="text_scale">Text Scale</string>
+    <string name="blob_text_header">Blob Text</string>
+    <string name="blob_text_ap">Achievement Points (AP)</string>
+    <string name="blob_text_connection">Connection Quality</string>
+    <string name="blob_text_multimerg_number">MultiMerg Blob Number</string>
+    <string name="blob_text_size_all">Show on all blobs</string>
+    <string name="blob_text_size_all_warning">May negatively impact app performance</string>
+    <string name="blob_text_spacing">Vertical Spacing</string>
     <string name="auto_spectate_killer">Öldüreni Otomatik İzle</string>
     <string name="cycle_progressbar">XP Çubuğu Modunu Değiştir</string>
     <string name="verbose_in_game_ui">Ayrıntılı Oyun İçi Arayüz</string>
@@ -121,8 +133,12 @@
     <string name="decrease_bots">Botları Azalt</string>
     <string name="increase_bots">Botları Artır</string>
     <string name="max_split_pieces">Maksimum Parça Sayısı</string>
+    <string name="max_split_128_gold">128: Season Pass Gold</string>
+    <string name="max_split_128_needs_gold">128 split pieces needs Season Pass Gold</string>
     <string name="quick_merge">Hızlı Birleşme</string>
     <string name="force_split_on_blob_size">Hücre boyutuna göre zorunlu bölünme</string>
+    <string name="custom_shot_size_multiplier">Custom shot size multiplier</string>
+    <string name="shot_size_self_feed_hint">>1 for self feed</string>
     <string name="merge_button">Birleşme Butonu</string>
     <string name="no_holes">Diken Yok</string>
     <string name="circle_map">Dairesel Harita</string>
@@ -222,7 +238,7 @@
     <!-- Boosters -->
     <string name="boosters">Özellikler</string>
     <string name="booster_permanent_upgrades">Kalıcı Yükseltmeler</string>
-    <string name="booster_owned">sahip olunan: %1$s</string>
+    <string name="booster_owned">Owned: %1$s</string>
     <!-- Value shown for a booster the player has not bought any level of. -->
     <string name="none">Yok</string>
     <string name="booster_ad_xp_title">Reklam XP Katlayıcı</string>
@@ -442,6 +458,7 @@
     <string name="profile_animated_gradient">Hareketli Renk Geçişi</string>
     <string name="profile_animated_circle_gradient">Hareketli Dairesel Renk Geçişi</string>
     <string name="prerequisite_not_met">Önce %s kilidini açmalısın</string>
+    <string name="profile_not_viewed">You need to view this profile before you can like it</string>
     <string name="prerequisite_feature">gerekli özellik</string>
     <string name="profile_name_color">PROFİL İSİM RENGİ</string>
     <string name="profile_not_logged_in_error">Giriş yapılmadı. Lütfen önce giriş yap.</string>
@@ -525,6 +542,7 @@
 
     <!-- Search Profile -->
     <string name="search_account">Hesap Ara</string>
+    <string name="search_clan">Search Clan</string>
     <string name="search_account_by_id_or_name">ID veya isme göre hesap ara</string>
     <string name="no_account_found">Hesap bulunamadı</string>
 
@@ -647,6 +665,7 @@
     <string name="clan_history_event_purchase_triple_gradient">Klan Üçlü Renk Geçişi Satın Alındı</string>
     <string name="clan_history_event_purchase_description_color">Klan Açıklaması Rengi Satın Alındı</string>
     <string name="clan_history_event_rename">Klan Yeniden Adlandırıldı</string>
+    <string name="clan_history_event_tier_up">Upgraded Clan Tier</string>
 
     <!-- Leaderboard !-->
     <string name="leaderboard_type">Liderlik Tablosu Türü</string>
@@ -660,6 +679,7 @@
     <string name="leaderboard_period_monthly">Aylık</string>
     <string name="leaderboard_period_all_time">Tüm Zamanlar</string>
     <string name="leaderboard_score">Skor</string>
+    <string name="leaderboard_points">Points</string>
     <string name="leaderboard_rank">Sıralama</string>
     <string name="leaderboard_empty">Henüz giriş yok</string>
     <string name="leaderboard_load_error">Liderlik tablosu yüklenemedi</string>
@@ -700,6 +720,16 @@
     <string name="stat_items_used">Kullanılan Eşyalar:</string>
     <string name="stat_voidstones_gifted">Hediye Edilen:</string>
     <string name="stat_opponents_exploded">Patlatılan Rakipler:</string>
+    <string name="stat_trick_splits">Trick Splits Performed:</string>
+    <string name="stat_trick_split_points">Trick Split Points:</string>
+    <string name="stat_pop_splits">Pop Splits Performed:</string>
+    <string name="stat_pop_split_points">Pop Split Points:</string>
+    <string name="stat_ice_splits">Ice Splits Performed:</string>
+    <string name="stat_ice_split_points">Ice Split Points:</string>
+    <string name="stat_tricks_total">Total Tricks Performed:</string>
+    <string name="stat_trick_points_total">Total Trick Points:</string>
+    <string name="stat_trick_god_high_score">Trick God High Score:</string>
+    <string name="stat_best_trick_combo">Best Trick Combo:</string>
 
     <!-- Mail !-->
     <string name="mail">Posta</string>
@@ -736,6 +766,8 @@
     <string name="gamemode_multimerg">MultiMerg</string>
     <string name="gamemode_domination">Hakimiyet</string>
     <string name="description_domination">Zamana karşı klasik oyun deneyimi; boyut sadece birinci sıradayken işe yarar! Haritadaki en büyük hücre olarak geçirdiğin her saniye puanına bir saniye ekler ve yenilmek daha önce biriktirdiğin süreyi asla eksiltmez. Süre bittiğinde birinci sırayı en uzun süre elinde tutan kazanır!</string>
+    <string name="gamemode_trick_god">Trick God</string>
+    <string name="description_trick_god">Classic gameplay on a clock, scored by style! Land tricks on other blobs to earn points, and chain them quickly to grow your combo multiplier. Trick Split: split into a blob you are too small to eat, and grow on the way by eating pieces in your path. Pop Split: feed your split piece to a blob next to a hole so it bursts, then eat one of its pieces. Ice Split: freeze your split piece while it flies, so the blob that tries to eat it pops. Your points stay when you get eaten, and the most points when the timer runs out wins!</string>
     <string name="description_classic">Daha küçük oyuncuları yut ve evrendeki en büyük hücre ol! Haritaya hükmetmek için boyutunu kullan ama seni yemek isteyen daha büyük oyunculara dikkat et!</string>
     <string name="description_teams">Aynı renkteki diğer oyuncularla güçlerini birleştir! Düşmanları tuzağa düşürmek ve liderlik tablosundaki baskın takım olmak için birlikte çalışın. Takım arkadaşları birbirini yiyemez.</string>
     <string name="description_survival">Tek can, tek raunt! Koruma süresi bitmeden toplayabildiğin kadar kütle topla. Bundan sonra ölüm kalıcıdır! Kazanmak için ayakta kalan son kişi veya süre dolduğunda en büyük sen ol!</string>
@@ -781,6 +813,12 @@
     <string name="timer_overtime_count">Uzatma %d</string>
     <string name="timer_grace">Koruma</string>
     <string name="timer_tiebreaker">Beraberlik Bozma</string>
+    <string name="timer_sudden_death">SUDDEN DEATH</string>
+    <string name="trick_split_title">TRICK SPLIT!</string>
+    <string name="trick_pop_split_title">POP SPLIT!</string>
+    <string name="trick_ice_split_title">ICE SPLIT!</string>
+    <string name="trick_assist_title">TRICK SPLIT ASSIST!</string>
+    <string name="trick_combo">Combo ×%1$d · %2$s×</string>
     <string name="timer_winner">Kazanan</string>
 
     <!-- Teams !-->
@@ -814,7 +852,6 @@
     <string name="skin_tab_voidstones">Voidstone</string>
     <string name="flags">Bayraklar</string>
     <string name="skin_tab_particles">Parçacıklar</string>
-    <string name="skin_tab_special">Özel</string>
     <string name="level_skin_locked_dialog">Bu görünümün kilidini açmak için %1$d. seviye olmalısın. Şu anda %2$d. seviyedesin.</string>
     <string name="skin_tab_achievement">Başarım</string>
     <string name="achievement_skin_locked_dialog">Bu görünümün kilidini açmak için %1$d Başarım Puanına ulaşmalısın. Şu anda %2$d puana sahipsin.</string>
@@ -827,6 +864,16 @@
     <string name="emotes">İfadeler</string>
     <string name="room_commands">Kullanılabilir komutların listesi için !help yazın</string>
     <string name="chat_close">Sohbeti Kapat</string>
+    <string name="chat_channel_public">PUBLIC</string>
+    <string name="clan_sys_joined">%1$s has joined the Clan!</string>
+    <string name="clan_sys_left">%1$s has left the Clan.</string>
+    <string name="clan_sys_kicked">%1$s was kicked from the Clan by %2$s</string>
+    <string name="clan_sys_banned">%1$s was banned from the Clan by %2$s</string>
+    <string name="clan_sys_promoted">%1$s was promoted to %2$s by %3$s!</string>
+    <string name="clan_sys_demoted">%1$s was demoted to %2$s by %3$s!</string>
+    <string name="clan_sys_achievement">%1$s unlocked the achievement %2$s</string>
+    <string name="clan_sys_donated">%1$s donated %2$s Voidstones to the Clan!</string>
+    <string name="clan_sys_tier">%1$s has advanced to Tier %2$s!</string>
     <string name="chat_message_hint">Mesaj yaz…</string>
     <string name="chat_send_message">Mesaj Gönder</string>
     <string name="copy_name">Adı Kopyala</string>
@@ -838,6 +885,33 @@
     <string name="chat_paused">Sohbet Duraklatıldı</string>
     <string name="reply">Yanıtla</string>
     <string name="replying_to">%s yanıtlanıyor</string>
+    <string name="chat_reply_hint">Type reply…</string>
+    <string name="chat_clear_input">Clear</string>
+    <string name="chat_settings_title">Chat Settings</string>
+    <string name="chat_settings_colors">Colors</string>
+    <string name="chat_settings_texts">Texts</string>
+    <string name="chat_settings_layout">Layout</string>
+    <string name="chat_bg_opacity">Chat Background Opacity</string>
+    <string name="chat_bg_opacity_desc">How solid the chat window is. Lower values show more of the game behind it.</string>
+    <string name="chat_contrast">Contrasts</string>
+    <string name="chat_contrast_desc">How solid the message area is, which sets how much it stands out from the rest of the chat window.</string>
+    <string name="chat_highlight">Highlighted Reply &amp; Mention</string>
+    <string name="chat_highlight_desc">Highlights messages that mention you (@ followed by your ID or your name) and replies to your messages.</string>
+    <string name="chat_highlight_opacity">Highlighted Opacity</string>
+    <string name="chat_show_ids_only">Show IDs Only</string>
+    <string name="chat_show_ids_only_desc">Shows only the player ID in front of each message.</string>
+    <string name="chat_show_names_only">Show Nicknames Only</string>
+    <string name="chat_show_names_only_desc">Shows only the player name in front of each message.</string>
+    <string name="chat_show_names_ids">Show Nicknames and IDs</string>
+    <string name="chat_show_names_ids_desc">Shows the player name followed by their ID in front of each message.</string>
+    <string name="chat_styled_names">Styled Nicknames</string>
+    <string name="chat_styled_names_desc">Shows names in the name color and font each player picked. When off, names are plain white.</string>
+    <string name="chat_text_size">Text Size</string>
+    <string name="chat_text_size_desc">The size of the chat messages.</string>
+    <string name="chat_expanded">Expanded Chat</string>
+    <string name="chat_expanded_desc">Makes the chat window taller so more messages fit. The arrow button under the chat switches it too.</string>
+    <string name="chat_no_hud">No HUD Behind Chat</string>
+    <string name="chat_no_hud_desc">While the chat is open, hides the rest of the game screen: the menu, the buttons at the top and bottom, your player info, and the leaderboard / minimap. Only your game buttons (split, shoot, …) stay while you are playing.</string>
 
     <!-- Notification box !-->
     <string name="level_up">Seviye Atladın! %d</string>
@@ -1033,6 +1107,22 @@
     <string name="custom_banner_refund">Özel Afiş İadesi</string>
     <string name="custom_banner_slot">Afiş %1$d</string>
     <string name="custom_banner_no_approved_image">%1$d. yuvada onaylanmış afiş yok</string>
+    <string name="custom_media_title_avatar">Choose Avatar</string>
+    <string name="custom_media_title_skin">Choose Skin</string>
+    <string name="custom_media_title_banner">Choose Banner</string>
+    <string name="custom_media_title_clan_avatar">Clan Avatar</string>
+    <string name="custom_media_title_clan_banner">Clan Banner</string>
+    <string name="custom_media_in_review">In Review</string>
+    <string name="custom_media_approved">Approved</string>
+    <string name="custom_media_rejected">Rejected</string>
+    <string name="custom_media_in_use">In Use</string>
+    <string name="custom_media_use">Use</string>
+    <string name="custom_media_stop_using">Stop Using</string>
+    <string name="custom_media_delete">Delete</string>
+    <string name="custom_image_delete_confirm">Delete this image? This cannot be undone.</string>
+    <string name="custom_banner_delete_confirm">Delete this banner? This cannot be undone.</string>
+    <string name="custom_image_deleted">Image deleted</string>
+    <string name="custom_banner_deleted">Banner deleted</string>
 
     <!-- Account recovery -->
     <string name="account_recovery">Hesap Kurtarma</string>
@@ -1210,6 +1300,7 @@
     <string name="additional_settings">ADDITIONAL SETTINGS</string>
     <string name="desc_quick_merge">Removes the merge cooldown when splitting.</string>
     <string name="desc_force_split_on_blob_size">Any blob that reaches the set size splits in half automatically, from its middle and with no launch momentum. Once a blob is already split into the maximum number of pieces, each piece is capped at that size instead. Not available in Adventure.</string>
+    <string name="desc_custom_shot_size">Sets how big a shot is compared to the mass it costs. The normal value is 0.6667, so a third of the mass is lost. Above 0.6667 and up to 1 the game earns x0.75 XP. Above 1 a shot is bigger than what it cost, so eating your own shots makes you grow (self feed), and nothing is saved: no statistics, XP, voidstones or achievements. Not available in Adventure.</string>
     <string name="desc_relax">All players (except bots) cannot fully kill each other, leaving at least 1 blob alive, similarly to Adventure mode.</string>
     <string name="desc_gold_holes">Blue holes have a %1$s%% chance to spawn as Gold holes instead, worth 4 times as much.</string>
     <string name="desc_teleport_holes">If disabled, all Teleport holes are replaced by Blue holes.</string>
@@ -1342,6 +1433,40 @@
     <string name="ach_title_movie_star">Movie Star</string>
     <string name="ach_title_cinephile">Cinephile</string>
     <string name="ach_desc_rewarded_ads">Watch %1$s rewarded ads.</string>
+    <string name="ach_title_trick_newbie">Trick Newbie</string>
+    <string name="ach_title_trick_apprentice">Trick Apprentice</string>
+    <string name="ach_title_trick_pro">Trick Pro</string>
+    <string name="ach_title_trick_master">Trick Master</string>
+    <string name="ach_title_trick_god">Trick GOD</string>
+    <string name="ach_desc_tricks">Perform %1$s tricks.</string>
+    <string name="ach_title_trick_split">Trick Split %1$s</string>
+    <string name="ach_desc_trick_splits">Perform %1$s Trick Splits.</string>
+    <string name="ach_title_pop_split">Pop Split %1$s</string>
+    <string name="ach_desc_pop_splits">Perform %1$s Pop Splits.</string>
+    <string name="ach_title_ice_split">Ice Split %1$s</string>
+    <string name="ach_desc_ice_splits">Perform %1$s Ice Splits.</string>
+    <string name="ach_title_combo_newbie">Combo Newbie</string>
+    <string name="ach_title_combo_apprentice">Combo Apprentice</string>
+    <string name="ach_title_combo_pro">Combo Pro</string>
+    <string name="ach_title_combo_master">Combo Master</string>
+    <string name="ach_title_combo_god">Combo God</string>
+    <string name="ach_desc_trick_combo">Reach Combo %1$s in Trick God mode.</string>
+    <string name="ach_title_kotlin_programming">Kotlin Programming</string>
+    <string name="ach_title_machine_learning">Machine Learning</string>
+    <string name="ach_title_operation_survival">Operation: Survival</string>
+    <string name="ach_title_quantum_computing">Quantum Computing</string>
+    <string name="ach_title_software_engineering">Software Engineering</string>
+    <string name="ach_desc_stage15_bot">Clear Adventure Stage 15 on any difficulty while still alive, after the bot %1$s has spawned.</string>
+    <string name="ach_title_speedrunner">Speedrunner %1$s</string>
+    <string name="ach_desc_speedrunner">Clear any Adventure stage in less than %1$s seconds.</string>
+    <string name="ach_title_flawless_wanderer">Flawless Wanderer</string>
+    <string name="ach_title_flawless_explorer">Flawless Explorer</string>
+    <string name="ach_title_flawless_adventurer">Flawless Adventurer</string>
+    <string name="ach_title_flawless_pioneer">Flawless Pioneer</string>
+    <string name="ach_title_flawless_conqueror">Flawless Conqueror</string>
+    <string name="ach_desc_flawless_stage">Clear Adventure Stages %1$s-1 to %1$s-20 without dying once.</string>
+    <string name="ach_title_twins">Twins</string>
+    <string name="ach_desc_twins">Eat a player wearing the same skin as you.</string>
     <string name="net_switched_to_websocket">!! UDP blocked, switched to Websocket. Expect higher latency. Check the firewall rules of your network, ensuring UDP port 9807 isn't blocked. If you are playing on web, you can ignore this message.</string>
     <string name="net_switched_back_to_udp">Switched back to UDP.</string>
     <string name="options_main">Main</string>
@@ -1349,4 +1474,51 @@
     <string name="options_gameplay">Gameplay</string>
     <string name="options_experimental">Experimental</string>
     <string name="options_force_websocket">Force gameplay over Websocket</string>
+    <string name="daily_reward_title">Daily Reward</string>
+    <string name="transaction_clan_tier_daily">Clan Tier %1$s Daily Reward</string>
+    <string name="daily_reward_streak_title">%1$d Day Streak</string>
+    <string name="daily_reward_reward">Reward:</string>
+    <string name="daily_reward_xp_multiplier">+%1$d%% XP Multiplier</string>
+    <string name="daily_reward_play_to_claim">Play at least once to claim</string>
+    <string name="daily_reward_claimed">Claimed!</string>
+    <string name="daily_reward_new_day_in">New day in %1$s</string>
+    <string name="daily_reward_day">Day %1$d</string>
+    <string name="daily_reward_overview_stats">Streak: %1$d ⋅ Best: %2$d ⋅ XP Bonus: +%3$d%%</string>
+    <string name="daily_reward_overview_hint">Play once a day to receive a reward, but be careful not to miss a day to avoid losing your unlocked skins and XP bonus!</string>
+    <string name="daily_skin_locked_dialog">You need a %1$d day streak to unlock this skin. Your current streak is %2$d.</string>
+    <string name="options_notifications">Notifications</string>
+    <string name="notifications_received_mail">Received Mail</string>
+    <string name="notifications_daily_reward_reminders">Daily Reward reminders</string>
+    <string name="notifications_send_test_reminder">Send test reminder</string>
+    <string name="daily_reminder_push_title">Your %1$d Day Streak ends soon!</string>
+    <string name="daily_reminder_push_body">You haven't claimed today's Daily Reward yet. Play once before the day ends to avoid losing your streak and all its rewards!</string>
+    <string name="clan_promote">Promote</string>
+    <string name="clan_demote">Demote</string>
+    <string name="clan_stats">Clan Stats</string>
+    <string name="clan_stats_rank">Clan Rank</string>
+    <string name="clan_stats_days_today">(today)</string>
+    <string name="clan_stats_days_one">(1 day ago)</string>
+    <string name="clan_stats_days">(%1$d days ago)</string>
+    <string name="clan_stats_xp">XP Contributed</string>
+    <string name="clan_stats_voidstones">Voidstones Contributed</string>
+    <string name="clan_tier">Tier %1$s</string>
+    <string name="clan_tier_full">Clan Tier %1$s</string>
+    <string name="clan_tier_upgrade">Upgrade to Tier %1$s</string>
+    <string name="clan_tier_upgrade_confirm">Spend %1$s Clan Voidstones to upgrade the Clan to Tier %2$s?</string>
+    <string name="clan_tier_max">Highest Tier reached!</string>
+    <string name="clan_tier_roles_only">Only the Owner, Co-Owners and Admins can upgrade the Clan Tier.</string>
+    <string name="clan_tier_clan_xp">Clan XP</string>
+    <string name="clan_tier_clan_voidstones">Clan Voidstones</string>
+    <string name="clan_tier_perks">Perks</string>
+    <string name="clan_tier_perk_xp">+%1$s%% XP Multiplier for all members</string>
+    <string name="clan_tier_perk_members">%1$d member slots</string>
+    <string name="clan_tier_perk_daily">%1$s Daily Voidstones</string>
+    <string name="clan_tier_perk_skin">New Clan Skin</string>
+    <string name="clan_tier_perk_particle">Clan particle: Crossed Swords</string>
+    <string name="clan_tier_perk_image_slots">%1$d Clan image slots</string>
+    <string name="clan_tier_perk_discount">-%1$d%% Clan shop Voidstone prices</string>
+    <string name="clan_tier_perk_emblem">%1$s Tier emblem</string>
+    <string name="clan_tier_requirement">Required: %1$s and %2$s</string>
+    <string name="clan_skin_locked_dialog">This skin unlocks with Clan Tier %1$s. Your Clan is Tier %2$s.</string>
+    <string name="clan_skin_locked_no_clan">This skin unlocks with Clan Tier %1$s. You are currently not in a Clan.</string>
 </resources>
