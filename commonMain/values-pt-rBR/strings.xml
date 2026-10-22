@@ -63,15 +63,15 @@
     <string name="control_touch">Toque</string>
     <string name="control_drag">Arrastar</string>
     <string name="ignore_multitouch_movement">Ignorar multitoque ao se movimentar</string>
-    <string name="snap_direction_on_stop">Snap direction to 90° on stop</string>
+    <string name="snap_direction_on_stop">Alinhar direção para 90° ao parar</string>
     <string name="control_mouse">Mouse</string>
     <string name="control_keyboard">Teclado</string>
     <string name="button_layout">Layout dos botões</string>
     <string name="customize">Personalizar</string>
     <string name="opacity">Opacidade</string>
-    <string name="top_button_position">Top Button Position</string>
-    <string name="top_button_position_left">Left</string>
-    <string name="top_button_position_right">Right</string>
+    <string name="top_button_position">Posição dos botões do topo</string>
+    <string name="top_button_position_left">Esquerda</string>
+    <string name="top_button_position_right">Direita</string>
     <string name="leaderboard_size">Tamanho do placar</string>
     <string name="sound_effects">Efeitos sonoros</string>
     <string name="sound_volume">Volume dos sons</string>
@@ -85,29 +85,29 @@
     <string name="skin_outlines">Bordas nas skins</string>
     <string name="multimerg_blob2_opposite_color">Inverter a cor do 2º blob (MultiMerg)</string>
     <string name="delayed_auto_fire">Atraso no auto-split/auto-eject</string>
-    <string name="zoom_lens_size">Zoom Lens Size</string>
+    <string name="zoom_lens_size">Tamanho das lentes de zoom</string>
     <string name="direction_arrow">Seta de direção</string>
     <string name="border_above_entities">Borda acima das entidades</string>
     <string name="map_border_visible">Exibir borda do mapa</string>
     <string name="star_background_enabled">Estrelas</string>
     <string name="star_color_white">Brancas</string>
     <string name="star_color_black">Pretas</string>
-    <string name="text_position">Text Position</string>
+    <string name="text_position">Posição dos textos</string>
     <string name="name_position_above">Cima</string>
     <string name="name_position_center">Centro</string>
     <string name="name_position_below">Baixo</string>
-    <string name="text_scale">Text Scale</string>
-    <string name="blob_text_header">Blob Text</string>
-    <string name="blob_text_ap">Achievement Points (AP)</string>
-    <string name="blob_text_connection">Connection Quality</string>
-    <string name="blob_text_multimerg_number">MultiMerg Blob Number</string>
-    <string name="blob_text_size_all">Show on all blobs</string>
-    <string name="blob_text_size_all_warning">May negatively impact app performance</string>
-    <string name="blob_text_spacing">Vertical Spacing</string>
+    <string name="text_scale">Tamanho do texto</string>
+    <string name="blob_text_header">Texto nos blobs</string>
+    <string name="blob_text_ap">Pontos por Conquista (AP</string>
+    <string name="blob_text_connection">Qualidade da conexão</string>
+    <string name="blob_text_multimerg_number">Número do blob no MultiMerg</string>
+    <string name="blob_text_size_all">Exibir em todos os blobs</string>
+    <string name="blob_text_size_all_warning">Pode afetar negativamente o desempenho do app</string>
+    <string name="blob_text_spacing">Espaçamento vertical</string>
     <string name="auto_spectate_killer">Telar o(a) matador(a) automaticamente</string>
     <string name="cycle_progressbar">Percorrer o texto da barra de progresso de XP</string>
     <string name="verbose_in_game_ui">IU detalhada no jogo</string>
-    <string name="announce_tricks">Announce Tricks</string>
+    <string name="announce_tricks">Notificar tricks</string>
     <string name="jitter_buffer">Jitter buffer</string>
     <string name="extrapolation">Extrapolação</string>
     <string name="no_interpolation">Sem interpolação</string>
@@ -134,12 +134,12 @@
     <string name="decrease_bots">Reduzir quantidade de bots</string>
     <string name="increase_bots">Aumentar quantidade de bots</string>
     <string name="max_split_pieces">Núm. máx. de splits</string>
-    <string name="max_split_128_gold">128: Season Pass Gold</string>
-    <string name="max_split_128_needs_gold">128 split pieces needs Season Pass Gold</string>
+    <string name="max_split_128_gold">128: Passe de Temporada Gold</string>
+    <string name="max_split_128_needs_gold">A função de 128 splits requer o Passe de Temporada Gold</string>
     <string name="quick_merge">Juntar-se rapidamente</string>
     <string name="force_split_on_blob_size">Forçar divisão do blob</string>
-    <string name="custom_shot_size_multiplier">Custom shot size multiplier</string>
-    <string name="shot_size_self_feed_hint">>1 for self feed</string>
+    <string name="custom_shot_size_multiplier">Multiplicador personalizado do tamanho da ejeção</string>
+    <string name="shot_size_self_feed_hint">>1 para autoabsorção</string>
     <string name="merge_button">Botão de se juntar</string>
     <string name="no_holes">Sem vírus</string>
     <string name="circle_map">Mapa em formato de círculo</string>
@@ -198,7 +198,7 @@
     <string name="find_opponent">PROCURAR ADVERSÁRIO</string>
     <string name="leave_matchmaking">SAIR DA FORMAÇÃO</string>
     <string name="searching_ellipsis">Procurando…</string>
-    <string name="competitive_entering">Entering…</string>
+    <string name="competitive_entering">Entrando…</string>
     <string name="x_searching_y_playing">%1$s procurando · %2$s em andamento</string>
     <string name="x_searching">%d procurando</string>
     <string name="x_playing">%d em andamento</string>
@@ -239,7 +239,7 @@
     <!-- Boosters -->
     <string name="boosters">Incrementos</string>
     <string name="booster_permanent_upgrades">Aprimoramentos Permanentes</string>
-    <string name="booster_owned">Owned: %1$s</string>
+    <string name="booster_owned">Ativo: %1$s</string>
     <!-- Value shown for a booster the player has not bought any level of. -->
     <string name="none">Nenhum</string>
     <string name="booster_ad_xp_title">Multiplicador de XP por Anúncio</string>
@@ -368,9 +368,9 @@
      <string name="season_pass_history_revoked_stage_paid">Fase %1$d (Pago) — revogada</string>
      <string name="season_pass_history_revoked_voidstones">Remoção de Voidstones</string>
      <string name="season_pass_history_revoked_unlock">Remoção do desbloqueio</string>
-     <string name="season_pass_history_revoked_trigger_refund">Season Pass Gold reembolsada</string>
-     <string name="season_pass_history_revoked_trigger_dispute">Season Pass Gold disputada</string>
-     <string name="season_pass_history_revoked_trigger_chargeback">Season Pass Gold estornada</string>
+     <string name="season_pass_history_revoked_trigger_refund">Passe de Temporada Gold reembolsada</string>
+     <string name="season_pass_history_revoked_trigger_dispute">Passe de Temporada Gold disputada</string>
+     <string name="season_pass_history_revoked_trigger_chargeback">Passe de Temporada Gold estornada</string>
 
      <string name="season_pass_missed_title">RECOMPENSAS NÃO-RESGATADAS</string>
      <string name="season_pass_missed_subtitle">Missões não concluídas na temporada %1$d</string>
@@ -459,7 +459,7 @@
     <string name="profile_animated_gradient">Gradiente Animado</string>
     <string name="profile_animated_circle_gradient">Gradiente Animado (Círculo)</string>
     <string name="prerequisite_not_met">Desbloqueie %s primeiro</string>
-    <string name="profile_not_viewed">You need to view this profile before you can like it</string>
+    <string name="profile_not_viewed">É preciso ver este perfil para curtir</string>
     <string name="prerequisite_feature">Recurso necessário</string>
     <string name="profile_name_color">COR DO NOME</string>
     <string name="profile_not_logged_in_error">Não conectado(a). Faça login primeiro.</string>
@@ -543,7 +543,7 @@
 
     <!-- Search Profile -->
     <string name="search_account">Procurar Conta</string>
-    <string name="search_clan">Search Clan</string>
+    <string name="search_clan">Procurar Clã</string>
     <string name="search_account_by_id_or_name">Insira o nome ou ID para procurar</string>
     <string name="no_account_found">Conta não encontrada</string>
 
@@ -578,7 +578,7 @@
     <string name="clan_join_mode_request">Apenas Solicitações</string>
     <string name="clan_join_mode_private">Privado</string>
     <string name="clan_join_mode_abandoned">Abandonado</string>
-    <string name="clan_status_full">Full</string>
+    <string name="clan_status_full">Cheio</string>
     <string name="clan_pending_requests">Solicitações de Entrada</string>
     <string name="clan_role_owner">Dono(a)</string>
     <string name="clan_role_co_owner">Vice-dono(a)</string>
@@ -667,7 +667,7 @@
     <string name="clan_history_event_purchase_triple_gradient">Comrpou Gradiente 2 para o Fundo do Clã</string>
     <string name="clan_history_event_purchase_description_color">Comprou Cores para a Descrição do Clã</string>
     <string name="clan_history_event_rename">Renomeou Clã</string>
-    <string name="clan_history_event_tier_up">Upgraded Clan Tier</string>
+    <string name="clan_history_event_tier_up">Aprimorou o Nível do Clã</string>
 
     <!-- Leaderboard !-->
     <string name="leaderboard_type">Tipo de Placar</string>
@@ -681,7 +681,7 @@
     <string name="leaderboard_period_monthly">Mensal</string>
     <string name="leaderboard_period_all_time">Histórico</string>
     <string name="leaderboard_score">Pontuação</string>
-    <string name="leaderboard_points">Points</string>
+    <string name="leaderboard_points">Pontos</string>
     <string name="leaderboard_rank">Classificação</string>
     <string name="leaderboard_empty">Ainda não há inscrições</string>
     <string name="leaderboard_load_error">Falha ao carregar o placar</string>
@@ -722,16 +722,16 @@
     <string name="stat_items_used">Itens usados:</string>
     <string name="stat_voidstones_gifted">Presenteados:</string>
     <string name="stat_opponents_exploded">Adversários atingidos:</string>
-    <string name="stat_trick_splits">Trick Splits Performed:</string>
-    <string name="stat_trick_split_points">Trick Split Points:</string>
-    <string name="stat_pop_splits">Pop Splits Performed:</string>
-    <string name="stat_pop_split_points">Pop Split Points:</string>
-    <string name="stat_ice_splits">Ice Splits Performed:</string>
-    <string name="stat_ice_split_points">Ice Split Points:</string>
-    <string name="stat_tricks_total">Total Tricks Performed:</string>
-    <string name="stat_trick_points_total">Total Trick Points:</string>
-    <string name="stat_trick_god_high_score">Trick God High Score:</string>
-    <string name="stat_best_trick_combo">Best Trick Combo:</string>
+    <string name="stat_trick_splits">Trick splits realizados:</string>
+    <string name="stat_trick_split_points">Pontos por trick split:</string>
+    <string name="stat_pop_splits">Pop splits realizados:</string>
+    <string name="stat_pop_split_points">Pontos por pop split:</string>
+    <string name="stat_ice_splits">Ice splits realizados:</string>
+    <string name="stat_ice_split_points">Pontos por ice split:</string>
+    <string name="stat_tricks_total">Tricks totais realizados:</string>
+    <string name="stat_trick_points_total">Pontos totais por trick:</string>
+    <string name="stat_trick_god_high_score">Pont. mais alta no Trick God:</string>
+    <string name="stat_best_trick_combo">Melhor combinação de tricks:</string>
 
     <!-- Mail !-->
     <string name="mail">E-mail</string>
@@ -815,12 +815,12 @@
     <string name="timer_overtime_count">Acréscimo %d</string>
     <string name="timer_grace">Tolerância</string>
     <string name="timer_tiebreaker">Desempate</string>
-    <string name="timer_sudden_death">SUDDEN DEATH</string>
+    <string name="timer_sudden_death">MORTE SÚBITA</string>
     <string name="trick_split_title">TRICK SPLIT!</string>
     <string name="trick_pop_split_title">POP SPLIT!</string>
     <string name="trick_ice_split_title">ICE SPLIT!</string>
     <string name="trick_assist_title">TRICK SPLIT ASSIST!</string>
-    <string name="trick_combo">Combo ×%1$d · %2$s×</string>
+    <string name="trick_combo">Combinação ×%1$d · %2$s×</string>
     <string name="timer_winner">Ganhador(a)</string>
 
     <!-- Teams !-->
@@ -854,10 +854,10 @@
     <string name="skin_tab_voidstones">Voidstone</string>
     <string name="flags">Bandeiras</string>
     <string name="skin_tab_particles">Partículas</string>
-    <string name="level_skin_locked_dialog">You must be level %1$d to unlock this skin. You are currently level %2$d.</string>
-    <string name="skin_tab_achievement">Achievement</string>
-    <string name="achievement_skin_locked_dialog">You must reach %1$d Achievement Points to unlock this skin. You currently have %2$d.</string>
-    <string name="dismiss">Dismiss</string>
+    <string name="level_skin_locked_dialog">É necessário atingir o nível %1$d para desbloquear esta skin. O seu nível atual é %2$d.</string>
+    <string name="skin_tab_achievement">Conquista</string>
+    <string name="achievement_skin_locked_dialog">É necessário obter %1$d Pontos por Conquista para desbloquear esta skin. Você possui %2$d.</string>
+    <string name="dismiss">Esquecer</string>
     <string name="level_lock">Bloqueio no nível</string>
 
 
@@ -867,15 +867,15 @@
     <string name="room_commands">Digite !help para exibir uma lista de comandos disponíveis</string>
     <string name="chat_close">Fechar Chat</string>
     <string name="chat_channel_public">PUBLIC</string>
-    <string name="clan_sys_joined">%1$s has joined the Clan!</string>
-    <string name="clan_sys_left">%1$s has left the Clan.</string>
-    <string name="clan_sys_kicked">%1$s was kicked from the Clan by %2$s</string>
-    <string name="clan_sys_banned">%1$s was banned from the Clan by %2$s</string>
-    <string name="clan_sys_promoted">%1$s was promoted to %2$s by %3$s!</string>
-    <string name="clan_sys_demoted">%1$s was demoted to %2$s by %3$s!</string>
-    <string name="clan_sys_achievement">%1$s unlocked the achievement %2$s</string>
-    <string name="clan_sys_donated">%1$s donated %2$s Voidstones to the Clan!</string>
-    <string name="clan_sys_tier">%1$s has advanced to Tier %2$s</string>
+    <string name="clan_sys_joined">%1$s entrou no clã!</string>
+    <string name="clan_sys_left">%1$s saiu do clã.</string>
+    <string name="clan_sys_kicked">%1$s foi expulso(a) do clã por %2$s</string>
+    <string name="clan_sys_banned">%1$s foi banido(a) do clã por %2$s</string>
+    <string name="clan_sys_promoted">%1$s foi promovido(a) a %2$s por %3$s!</string>
+    <string name="clan_sys_demoted">%1$s foi rebaixado(a) a %2$s por %3$s!</string>
+    <string name="clan_sys_achievement">%1$s desbloqueou a conquista %2$s</string>
+    <string name="clan_sys_donated">%1$s doou %2$s Voidstones para o clã!</string>
+    <string name="clan_sys_tier">%1$s avançou para o Nível %2$s</string>
     <string name="chat_message_hint">Digite uma mensagem…</string>
     <string name="chat_send_message">Enviar Mensagem</string>
     <string name="copy_name">Copiar Nome</string>
@@ -887,35 +887,35 @@
     <string name="chat_paused">Chat pausado</string>
     <string name="reply">Responder</string>
     <string name="replying_to">Respondendo para %s</string>
-    <string name="chat_reply_hint">Type reply…</string>
-    <string name="chat_clear_input">Clear</string>
-    <string name="chat_settings_title">Chat Settings</string>
-    <string name="chat_settings_colors">Colors</string>
-    <string name="chat_settings_texts">Texts</string>
+    <string name="chat_reply_hint">Digite uma resposta…</string>
+    <string name="chat_clear_input">Limpar</string>
+    <string name="chat_settings_title">Configurações do Chat</string>
+    <string name="chat_settings_colors">Cores</string>
+    <string name="chat_settings_texts">Textos</string>
     <string name="chat_settings_layout">Layout</string>
-    <string name="chat_bg_opacity">Chat Background Opacity</string>
-    <string name="chat_bg_opacity_desc">How solid the chat window is. Lower values show more of the game behind it.</string>
-    <string name="chat_contrast">Contrasts</string>
-    <string name="chat_contrast_desc">How solid the message area is, which sets how much it stands out from the rest of the chat window.</string>
-    <string name="chat_highlight">Highlighted Reply &amp; Mention</string>
-    <string name="chat_highlight_desc">Highlights messages that mention you (@ followed by your ID or your name) and replies to your messages.</string>
-    <string name="chat_highlight_opacity">Highlighted Opacity</string>
-    <string name="chat_show_system_messages">Show System Messages</string>
-    <string name="chat_show_system_messages_desc">Shows SYSTEM messages in the chat: the room's, your clan's and the game's own. When off they are hidden, and the chat button no longer counts them.</string>
-    <string name="chat_show_ids_only">Show IDs Only</string>
-    <string name="chat_show_ids_only_desc">Shows only the player ID in front of each message.</string>
-    <string name="chat_show_names_only">Show Nicknames Only</string>
-    <string name="chat_show_names_only_desc">Shows only the player name in front of each message.</string>
-    <string name="chat_show_names_ids">Show Nicknames and IDs</string>
-    <string name="chat_show_names_ids_desc">Shows the player name followed by their ID in front of each message.</string>
-    <string name="chat_styled_names">Styled Nicknames</string>
-    <string name="chat_styled_names_desc">Shows names in the name color and font each player picked. When off, names are plain white.</string>
-    <string name="chat_text_size">Text Size</string>
-    <string name="chat_text_size_desc">The size of the chat messages.</string>
-    <string name="chat_expanded">Expanded Chat</string>
-    <string name="chat_expanded_desc">Makes the chat window taller so more messages fit. The arrow button under the chat switches it too.</string>
-    <string name="chat_no_hud">No HUD Behind Chat</string>
-    <string name="chat_no_hud_desc">While the chat is open, hides the rest of the game screen: the menu, the buttons at the top and bottom, your player info, and the leaderboard / minimap. Only your game buttons (split, shoot, …) stay while you are playing.</string>
+    <string name="chat_bg_opacity">Opacidade do fundo do chat</string>
+    <string name="chat_bg_opacity_desc">O quão sólida a janela do chat será. Valores menores exibem mais do jogo por trás dele.</string>
+    <string name="chat_contrast">Contrastes</string>
+    <string name="chat_contrast_desc">O quão sólido será o campo da mensagem, o que determina o quanto ele fica para fora do resto da janela do chat.</string>
+    <string name="chat_highlight">Destaque das respostas e menções</string>
+    <string name="chat_highlight_desc">Destaca mensagens que mencionam você (@ seguida pelo seu ID ou nome) e respostas às suas mensagens.</string>
+    <string name="chat_highlight_opacity">Destaque da opacidade</string>
+    <string name="chat_show_system_messages">Exibir mensagens do sistema</string>
+    <string name="chat_show_system_messages_desc">Exibe mensagens do SISTEMA no chat: as da sala, do seu clã e do jogo em si. Quando desativadas elas serão ocultas e o botão de chat não as contará mais.</string>
+    <string name="chat_show_ids_only">Exibir apenas IDs</string>
+    <string name="chat_show_ids_only_desc">Exibe apenas o ID do jogador na frente de cada mensagem.</string>
+    <string name="chat_show_names_only">Exibir apenas apelidos</string>
+    <string name="chat_show_names_only_desc">Exibe apenas o nome do jogador na frente de cada mensagem.</string>
+    <string name="chat_show_names_ids">Exibir apelidos e IDs</string>
+    <string name="chat_show_names_ids_desc">Exibe o nome do jogador seguido pelo seu ID na frente de cada mensagem.</string>
+    <string name="chat_styled_names">Apelidos estilizados</string>
+    <string name="chat_styled_names_desc">Os nomes serão exibidos dadas as cores e fonte escolhidas pelo jogador. Quando desativado, os nomes estarão simplificados em branco total.</string>
+    <string name="chat_text_size">Tamanho do texto</string>
+    <string name="chat_text_size_desc">O tamanho das mensagens do chat.</string>
+    <string name="chat_expanded">Expandir chat</string>
+    <string name="chat_expanded_desc">A janela do chat ficará mais alta e exibirá mais mensagens. O botão de seta no chat também alternará esta configuração.</string>
+    <string name="chat_no_hud">Ocultar HUD por trás do chat</string>
+    <string name="chat_no_hud_desc">Quando o chat está aberto, ocultará o resto da tela de jogo: o menu, os botões nas partes superior e inferior, informações do jogador e o placar de líderes/mini-mapa. Apenas os botões do jogo (divisão, ejeção etc.) serão exibidos enquanto joga.</string>
 
     <!-- Notification box !-->
     <string name="level_up">Subiu de Nível! %d</string>
@@ -923,8 +923,8 @@
     <string name="stage_clear">Fase %s Concluída!</string>
     <string name="stage_failed">Fase %s Falhada!</string>
     <string name="restarting_adventure">Reiniciando aventura…</string>
-    <string name="adventure_lives_left">%s lives left</string>
-    <string name="adventure_one_life_left">1 life left</string>
+    <string name="adventure_lives_left">%s vidas restantes</string>
+    <string name="adventure_one_life_left">1 vida restante</string>
     <string name="server_in_maintenance">Manutenção do Servidor</string>
     <string name="server_reboot">Reinício do Servidor</string>
     <string name="server_shutdown">Encerramento do Servidor</string>
@@ -956,7 +956,7 @@
     <string name="xp">XP</string>
     <string name="level">Nível</string>
     <string name="level_number">Nível %d</string>
-    <string name="food">Alimento</string>
+    <string name="food">Pontos</string>
     <string name="voidstones">Voidstones</string>
     <string name="items">Ítens</string>
     <string name="blobs_eaten">Blobs Absorvidos</string>
@@ -983,7 +983,7 @@
     <string name="banned_from_room">Banido(a) da Sala!</string>
     <string name="enter_room_name">Insira o Nome da Sala</string>
     <string name="room_not_found">Sala não encontrada</string>
-    <string name="room_outdated_client">Outdated Client!</string>
+    <string name="room_outdated_client">Cliente Desatualizadoa!</string>
     <string name="already_in_room">Já está em uma sala!</string>
     <string name="room_closed">Sala Fechada</string>
     <string name="room_name">Nome da Sala</string>
