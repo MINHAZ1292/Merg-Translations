@@ -5,17 +5,14 @@
     <string name="singleplayer">একক খেলোয়াড়</string>
     <string name="lan_multiplayer">লোকাল মাল্টিপ্লেয়ার</string>
     <string name="lan">LAN</string>
-    <string name="online_multiplayer">অনলাইন মাল্টিপ্লেয়ার
-</string>
+    <string name="online_multiplayer">অনলাইন মাল্টিপ্লেয়ার</string>
     <string name="options">অপশনসমূহ</string>
     <string name="discord" translatable="false">Discord</string>
 
     <!-- Support menu !-->
     <string name="email" translatable="false">redpixels.studio21@gmail.com</string>
-    <string name="email_copy">ইমেইল কপি করুন
-</string>
-    <string name="email_support">সহায়তা ইমেইল
-:</string>
+    <string name="email_copy">ইমেইল কপি করুন</string>
+    <string name="email_support">সহায়তা ইমেইল:</string>
     <string name="developer">ডেভেলপার:</string>
     <string name="code_contribution">কোড অবদানসমূহ:</string>
     <string name="skins">Skins:</string>
