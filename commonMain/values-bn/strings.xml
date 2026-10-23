@@ -2,24 +2,27 @@
     <string name="app_name" translatable="false">Merg</string>
 
     <!-- Main menu !-->
-    <string name="singleplayer">Singleplayer</string>
-    <string name="lan_multiplayer">LAN Multiplayer</string>
+    <string name="singleplayer">একক খেলোয়াড়</string>
+    <string name="lan_multiplayer">লোকাল মাল্টিপ্লেয়ার</string>
     <string name="lan">LAN</string>
-    <string name="online_multiplayer">Online Multiplayer</string>
-    <string name="options">Options</string>
+    <string name="online_multiplayer">অনলাইন মাল্টিপ্লেয়ার
+</string>
+    <string name="options">অপশনসমূহ</string>
     <string name="discord" translatable="false">Discord</string>
 
     <!-- Support menu !-->
     <string name="email" translatable="false">redpixels.studio21@gmail.com</string>
-    <string name="email_copy">Copy Email</string>
-    <string name="email_support">Support Mail:</string>
-    <string name="developer">Developer:</string>
-    <string name="code_contribution">Code Contributions:</string>
+    <string name="email_copy">ইমেইল কপি করুন
+</string>
+    <string name="email_support">সহায়তা ইমেইল
+:</string>
+    <string name="developer">ডেভেলপার:</string>
+    <string name="code_contribution">কোড অবদানসমূহ:</string>
     <string name="skins">Skins:</string>
-    <string name="graphics_icons">Graphics/Icons:</string>
-    <string name="sound_effects_credit">Sound Effects:</string>
-    <string name="translations">Translations:</string>
-    <string name="fonts">Fonts:</string>
+    <string name="graphics_icons">গ্রাফিক্স/আইকনসমূহ:</string>
+    <string name="sound_effects_credit">শব্দ প্রভাবসমূহ:</string>
+    <string name="translations">অনুবাদসমূহ:</string>
+    <string name="fonts">অক্ষরবিন্যাস:</string>
 
     <!-- Options menu !-->
     <string name="language">ভাষা</string>
