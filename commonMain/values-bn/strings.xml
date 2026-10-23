@@ -4,7 +4,7 @@
     <!-- Main menu !-->
     <string name="singleplayer">একক খেলোয়াড়</string>
     <string name="lan_multiplayer">লোকাল মাল্টিপ্লেয়ার</string>
-    <string name="lan">LAN</string>
+    <string name="lan">আঞ্চলিক নেটওয়ার্ক</string>
     <string name="online_multiplayer">অনলাইন মাল্টিপ্লেয়ার</string>
     <string name="options">অপশনসমূহ</string>
     <string name="discord" translatable="false">Discord</string>
@@ -15,7 +15,7 @@
     <string name="email_support">সহায়তা ইমেইল:</string>
     <string name="developer">ডেভেলপার:</string>
     <string name="code_contribution">কোড অবদানসমূহ:</string>
-    <string name="skins">Skins:</string>
+    <string name="skins">পোশাক:</string>
     <string name="graphics_icons">গ্রাফিক্স/আইকনসমূহ:</string>
     <string name="sound_effects_credit">শব্দ প্রভাবসমূহ:</string>
     <string name="translations">অনুবাদসমূহ:</string>
