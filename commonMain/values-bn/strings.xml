@@ -223,26 +223,26 @@
     <string name="play_one_more_match_to_rated">রেটিং বা মূল্যায়ন পেতে আরও ১টি ম্যাচ খেলুন!</string>
     <string name="history_viewer_vs_opponent">%1$s বনাম %2$s</string>
     <string name="prizes">পুরস্কার</string>
-    <string name="prizes_dialog_intro">Before every season reset, top players will receive a Voidstone reward based on their performance!</string>
-    <string name="current_season">Current Season</string>
+    <string name="prizes_dialog_intro">প্রতিটি ঋতু রিসেট করার আগে, শীর্ষ খেলোয়াড়দের তাদের কর্মক্ষমতা উপর ভিত্তি করে একটি voidstone পুরস্কার পাবেন!</string>
+    <string name="current_season">বর্তমান ঋতু</string>
 
     <!-- Shop -->
-    <string name="shop">Shop</string>
-    <string name="ticket">Ticket</string>
-    <string name="free_voidstones">Free Voidstones!</string>
-    <string name="free_voidstones_subtitle">Pick a square and watch a short video ad to earn voidstones!</string>
-    <string name="free_voidstones_won">You got %d voidstones!</string>
-    <string name="free_voidstones_status">%1$d left ⋅ Resets in %2$s</string>
-    <string name="free_voidstones_left">%d left</string>
-    <string name="pick">Pick</string>
-    <string name="redeem_code">Redeem Code</string>
+    <string name="shop">দোকান</string>
+    <string name="ticket">টিকিট</string>
+    <string name="free_voidstones">বিনামূল্যে voidstones!</string>
+    <string name="free_voidstones_subtitle">একটি বর্গক্ষেত্র চয়ন করুন এবং একটি ছোট ভিডিও বিজ্ঞাপন দেখুন voidstones উপার্জন করতে!</string>
+    <string name="free_voidstones_won">আপনি %d voidstones পেয়েছেন!</string>
+    <string name="free_voidstones_status">%1$d বাকি আছে ⋅ %2$s এ রিসেট হবে</string>
+    <string name="free_voidstones_left">%d বাকি</string>
+    <string name="pick">বাছাই</string>
+    <string name="redeem_code">কোড রিডিম করুন</string>
     <!-- Boosters -->
-    <string name="boosters">Boosters</string>
-    <string name="booster_permanent_upgrades">Permanent Upgrades</string>
-    <string name="booster_owned">Owned: %1$s</string>
+    <string name="boosters">বুস্টার</string>
+    <string name="booster_permanent_upgrades">স্থায়ী আপগ্রেড</string>
+    <string name="booster_owned">মালিকানাধীন: %1$s</string>
     <!-- Value shown for a booster the player has not bought any level of. -->
-    <string name="none">None</string>
-    <string name="booster_ad_xp_title">Ad XP Multiplier</string>
+    <string name="none">কোনোটিই নয়</string>
+    <string name="booster_ad_xp_title">অ্যাড এক্সপি গুণক</string>
     <string name="booster_ad_xp_desc">Watch a video for a temporary XP boost!</string>
     <string name="booster_stacks_base_xp">Stacks with Base XP</string>
     <string name="booster_watch_ad">Watch Ad</string>
